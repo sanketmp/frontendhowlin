@@ -1,10 +1,9 @@
-import Header from "./components/Header/Header";
+import Header from "./components/Header";
 import Title from "./components/Screens/Title";
 import Clients from "./components/Screens/Clients";
 import Track from "./components/Screens/Track";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer";
 import Services from "./components/Screens/Services";
-//import Hamberger from "./components/Hamburger/Hamberger";
 
 const App = () => {
   return (
@@ -15,8 +14,6 @@ const App = () => {
       <Clients />
       <Track />
       <Footer />
-      {/* <Hamberger />
-       */}
     </>
   );
 };

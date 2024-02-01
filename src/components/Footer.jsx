@@ -6,7 +6,7 @@ import {
   FaLinkedin,
   FaArrowRight,
 } from "react-icons/fa";
-import "./Footer.css";
+import "../assets/styles/Footer.css";
 
 const Footer = () => {
   const [email, setEmail] = useState("");

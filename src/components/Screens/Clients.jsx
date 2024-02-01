@@ -1,6 +1,4 @@
-import React from "react";
-import "./Clients.css";
-
+import "../../assets/styles/Clients.css";
 
 const Clients = () => {
   return (
@@ -11,14 +9,13 @@ const Clients = () => {
           <ul className="ul-up">
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2022/12/hrx1.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2022/12/hrx1.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/hrx/" target="_blank">
                     <img
@@ -33,14 +30,13 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2022/12/AMEX-Cards-1.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2022/12/AMEX-Cards-1.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/amex/" target="_blank">
                     <img
@@ -55,14 +51,13 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/howl-thumbnail-06.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/howl-thumbnail-06.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/work/" target="_blank">
                     <img
@@ -77,14 +72,13 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/MBF-Photo-1.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/MBF-Photo-1.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a
                     href="https://howl.in/mahindra-blues-festival/"
@@ -102,14 +96,12 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/Artboard-1-3.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/Artboard-1-3.jpg"
+                  alt=""
+                />
                 <div className="hoverimg">
                   <a href="https://howl.in/hrx/" target="_blank">
                     <img
@@ -124,14 +116,13 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/1-1.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/1-1.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/trueblue/" target="_blank">
                     <img
@@ -148,14 +139,13 @@ const Clients = () => {
           <ul className="ul-up">
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/Artboard-1-4.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/Artboard-1-4.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/aquatien/" target="_blank">
                     <img
@@ -170,14 +160,13 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/thumbnail-Floh-1.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/thumbnail-Floh-1.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/floh/" target="_blank">
                     <img
@@ -192,14 +181,13 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/howl-thumbnail-02.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/howl-thumbnail-02.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/work/" target="_blank">
                     <img
@@ -214,14 +202,13 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/Artboard-1-1-1.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/Artboard-1-1-1.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/digibank/" target="_blank">
                     <img
@@ -236,14 +223,13 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/Howl-Website-THumbnails-4-1.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/Howl-Website-THumbnails-4-1.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/aadhyam/" target="_blank">
                     <img
@@ -258,14 +244,13 @@ const Clients = () => {
             </li>
             <li>
               <div className="image-container">
-                <div>
-                  <img
-                    className="client-img"
-                    loading="lazy"
-                    src="https://howl.in/wp-content/uploads/2023/01/TSGC-image-1.jpg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  className="client-img"
+                  loading="lazy"
+                  src="https://howl.in/wp-content/uploads/2023/01/TSGC-image-1.jpg"
+                  alt=""
+                />
+
                 <div className="hoverimg">
                   <a href="https://howl.in/green-snack-co/" target="_blank">
                     <img

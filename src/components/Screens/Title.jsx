@@ -1,5 +1,4 @@
-import React from "react";
-import "./Title.css";
+import "../../assets/styles/Title.css";
 
 const Title = () => {
   return (

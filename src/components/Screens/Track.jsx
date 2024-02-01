@@ -1,5 +1,5 @@
-import React from "react";
-import "./Track.css";
+import "../../assets/styles/Track.css";
+
 const Track = () => {
   return (
     <section id="track">
@@ -10,7 +10,7 @@ const Track = () => {
         </div>
         <div className="img-container">
           <ul className="img-items">
-          <li className="item">
+            <li className="item">
               <div className="hire-container">
                 <div>
                   <img

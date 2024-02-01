@@ -1,7 +1,7 @@
 import { useState } from "react";
-import leg from "../../assets/legend.svg";
-import serv from "../../assets/serv.svg";
-import "./Services.css";
+import leg from "../../assets/images/legend.svg";
+import serv from "../../assets/images/serv.svg";
+import "../../assets/styles/Services.css";
 
 const Services = () => {
   const [activeClass, setActiveClass] = useState(3);
