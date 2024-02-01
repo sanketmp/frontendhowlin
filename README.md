@@ -59,5 +59,5 @@ And then it will create a `dist` folder. You need to upload this folder to platf
 
 ## Demo
 
-[See here](https://triviosa.netlify.app/)
+[See here](https://howlhq.netlify.app/)
 
