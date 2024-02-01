@@ -1,172 +1,63 @@
-import React, { useState, useEffect } from "react";
-//import "./Services.css";
-
-const treeData = [
-  {
-    id: "4",
-    text: "Consumer Research & Mapping",
-
-    children: [
-      {
-        id: "86",
-        text: "Consumer IQ",
-        children: [
-          {
-            text: [
-              "Audience Depth",
-              "Interest Segregation",
-              "Consumption Patterns",
-              "Attention Behaviour",
-              "Development Metrics",
-              "Consumer Archetype",
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: "4",
-    text: "Customer Experience Study & Strategy",
-
-    children: [
-      {
-        id: "86",
-        text: "Marketplace Data & Research",
-      },
-    ],
-  },
-  {
-    id: "4",
-    text: "Go To Market Strategy",
-
-    children: [
-      {
-        id: "86",
-        text: "Product/Service Category Data & Research",
-      },
-    ],
-  },
-  {
-    id: "4",
-    text: "Branding Framework Establishment",
-
-    children: [
-      {
-        id: "86",
-        text: "Brand Identity",
-        children: [
-          {
-            id: "86",
-            text: "first fisrtjfjsf",
-          },
-        ],
-      },
-      {
-        id: "86",
-        text: "Brand Communication",
-        children: [
-          {
-            id: "86",
-            text: "first fisrt",
-          },
-        ],
-      },
-    ],
-  },
-];
+import { useState } from "react";
+import leg from "../../assets/legend.svg";
+import serv from "../../assets/serv.svg";
+import "./Services.css";
 
 const Services = () => {
-  const [state, setstate] = useState([]);
-  // useEffect(() => {
-  //     mapTree(treeData, state, setstate);
-  // }, [])
-  // useEffect(() => {
-  //     console.log(state)
-  // }, [state])
-  // let arr = []
-  // const mapTree = (treeData) =>{
-  //     treeData.forEach((ele)=>{
-  //         console.log(ele, state);
-  //         setstate([...state, ele])
-  //         arr.push(ele);
-  //         const children = ele.children && JSON.parse(JSON.stringify(ele.children));
-  //         delete ele.children && ele['children'];
-  //         if(children && children.length){
-  //             return mapTree(children)
-  //         }
-  //     })
-  // }
-  // console.log(arr);
+  const [activeClass, setActiveClass] = useState(3);
 
   return (
     <section id="services">
-      <div className="tree">
-        {treeRendering(treeData)}
-        {/* <ul>
-		<li>
-            <div><input type="checkbox"/> Main <br/> <button> Test Btn </button></div>
-            <ul>
-                <li>
-                      <div>wqhdveghdf</div>
-
-                </li>
-                <li>
-                    <div>efjejfg</div> 
-                    <ul>
-                      <li>
-                            <div>wqhdveghdf</div>
-      
-                      </li>
-                      <li>
-                          <div>efjejfg</div> 
-                          <ul>
-                            <li>
-                                  <div>wqhdveghdf</div>
-                                  <ul>
-                                    <li>
-                                          <div>wqhdveghdf</div>
-                    
-                                    </li>
-                                </ul>
-            
-                            </li>
-                            <li>
-                                <div>efjejfg</div> 
-                                <ul>
-                                  <li>
-                                        <div>wqhdveghdf</div>
-                  
-                                  </li>
-                              </ul>
-                            </li>
-                        </ul>
-                      </li>
-                  </ul>
-                </li>
-            </ul>
-                        
-		</li>
-	</ul> */}
+      <div className="service-container">
+        <div className="service-list-legend">
+          <ul className="ul-list">
+            <li
+              onClick={() => setActiveClass(1)}
+              className={activeClass === 1 ? "li-item" : "list-item"}
+            >
+              STRATEGY AND CONSULTING
+            </li>
+            <li
+              onClick={() => setActiveClass(2)}
+              className={activeClass === 2 ? "li-item" : "list-item"}
+            >
+              ONLINE MARKETING EXPERIENCES
+            </li>
+            <li
+              onClick={() => setActiveClass(3)}
+              className={activeClass === 3 ? "li-item" : "list-item"}
+            >
+              COMMERCE SOLUTIONS
+            </li>
+            <li
+              onClick={() => setActiveClass(4)}
+              className={activeClass === 4 ? "li-item" : "list-item"}
+            >
+              GROWTH MARKETING
+            </li>
+            <li
+              onClick={() => setActiveClass(5)}
+              className={activeClass === 5 ? "li-item" : "list-item"}
+            >
+              ASSET CREATION
+            </li>
+          </ul>
+          <div className="legend">
+            <img src={leg} alt="Legend" className="legend-img" />
+          </div>
+        </div>
+        <div className="flex">
+          <div className="chart">
+            <img src={serv} alt="ChartDiagram" />
+          </div>
+          <div className="diver">
+            <span>
+              <strong>Dive Deeper</strong>
+            </span>
+          </div>
+        </div>
       </div>
     </section>
-  );
-};
-
-const treeRendering = (treeData) => {
-  return (
-    <>
-      <ul>
-        {treeData.map((item) => (
-          <li className={item.text + item.id}>
-            <div>{item.text}</div>
-            {item.children && item.children.length
-              ? treeRendering(item.children)
-              : ""}
-          </li>
-        ))}
-      </ul>
-    </>
   );
 };
 

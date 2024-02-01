@@ -1,0 +1,78 @@
+#services {
+  margin: 0;
+  padding: 1px;
+  background-color: #b0b1d7;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+.service-container .service-list-legend {
+  width: 40%;
+  margin-left: 0px;
+}
+
+.service-list-legend ul {
+  list-style-type: none;
+}
+.service-list-legend ul .list-item {
+  font: inherit;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.service-list-legend ul .li-item {
+  font: inherit;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 0 0 20px 0;
+  font-size: 25px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.service-list-legend img {
+  width: 80%;
+}
+
+.service-list-legend .legend-img {
+  display: flex;
+  justify-content: right;
+
+  margin-top: 20%;
+  margin-left: 20%;
+  padding: 0px;
+}
+
+.service-container .chart {
+  border-left: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.chart img {
+  width: 100%;
+}
+
+.diver {
+  position: relative;
+}
+
+.diver span {
+  position: absolute;
+  right: 0px;
+  color: white;
+  transition: all 0.3s;
+  padding: 20px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.diver span:hover {
+  color: black;
+}

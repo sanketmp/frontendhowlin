@@ -36,16 +36,10 @@
 .title-area .heading {
   font-size: 150px;
   margin-left: 10%;
-  width: 80%;
+  width: 100%;
   color: #b056be;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px ;
 }
-/* h1 {
-  color: black;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px ;
-} */
+
 .title-area img {
   margin-right: auto;
   margin-top: 0%;
@@ -53,7 +47,7 @@
   padding-right: 50px;
 }
 
-#para2{
-    display: flex;
-    justify-content: space-between;
+#para2 {
+  display: flex;
+  justify-content: space-between;
 }

@@ -17,22 +17,25 @@ const Footer = () => {
         <div className="footer-links">
           <ul className="socials">
             <li className="social-icon">
-              <a href="https://twitter.com/howlhqwastaken/">
+              <a target="_blank" href="https://twitter.com/howlhqwastaken/">
                 <FaXTwitter />
               </a>
             </li>
             <li className="social-icon">
-              <a href="https://www.instagram.com/howlhq/">
+              <a target="_blank" href="https://www.instagram.com/howlhq/">
                 <FaInstagram />
               </a>
             </li>
             <li className="social-icon">
-              <a href="https://www.youtube.com/@howldigital">
+              <a target="_blank" href="https://www.youtube.com/@howldigital">
                 <FaYoutube />
               </a>
             </li>
             <li className="social-icon">
-              <a href="https://www.linkedin.com/company/howlhq/">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/howlhq/"
+              >
                 <FaLinkedin />
               </a>
             </li>

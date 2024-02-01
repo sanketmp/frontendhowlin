@@ -28,6 +28,10 @@
 .footer-links .socials li a {
   text-decoration: none;
   color: inherit;
+  transition: all 0.3s;
+}
+.footer-links .socials li a:hover {
+  color: #b056be;
 }
 
 .footer-links .redirects {
@@ -100,11 +104,10 @@
   font-size: 20px;
 }
 
-.right-container{
-    margin-right: 5%;
-    
+.right-container {
+  margin-right: 5%;
 }
-.right-container .rights{
-    font-size: 15px;
-    padding-top: 15px;
+.right-container .rights {
+  font-size: 15px;
+  padding-top: 15px;
 }
