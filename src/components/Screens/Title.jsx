@@ -18,7 +18,7 @@ const Title = () => {
           />
         </div>
         <div id="para2">
-          <p></p>
+          <p />
           <p className="p2" id="para">
             <strong>
               It's not a game of guesses, it's a game of numbers where growth is

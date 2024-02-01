@@ -10,7 +10,7 @@ const Services = () => {
     <section id="services">
       <div className="service-container">
         <div className="service-list-legend">
-          <ul className="ul-list">
+          <ul>
             <li
               onClick={() => setActiveClass(1)}
               className={activeClass === 1 ? "li-item" : "list-item"}
@@ -42,11 +42,9 @@ const Services = () => {
               ASSET CREATION
             </li>
           </ul>
-          <div className="legend">
-            <img src={leg} alt="Legend" className="legend-img" />
-          </div>
+          <img src={leg} alt="Legend" className="legend-img" />
         </div>
-        <div className="flex">
+        <div>
           <div className="chart">
             <img src={serv} alt="ChartDiagram" />
           </div>

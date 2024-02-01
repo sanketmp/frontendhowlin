@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/styles/Header.css";
 
 const Header = () => {
@@ -15,7 +14,7 @@ const Header = () => {
       className="nav"
         loading="lazy"
         src="https://howl.in/wp-content/uploads/2023/01/mobile-nav-hamburge.png"
-        alt="Nav"
+        alt="Navigation"
       />
     </header>
   );

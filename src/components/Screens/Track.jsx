@@ -1,4 +1,5 @@
 import "../../assets/styles/Track.css";
+import { tracks } from "../../assets/constants/links";
 
 const Track = () => {
   return (
@@ -10,42 +11,16 @@ const Track = () => {
         </div>
         <div className="img-container">
           <ul className="img-items">
-            <li className="item">
-              <div className="hire-container">
-                <div>
-                  <img
-                    src="https://howl.in/wp-content/uploads/2023/06/amazon-case-study.jpg"
-                    alt="Hiring"
-                    className="imge"
-                  />
-                </div>
-                <div className="hoverimg" />
-              </div>
-            </li>
-            <li className="item">
-              <div className="hire-container">
-                <div>
-                  <img
-                    src="https://howl.in/wp-content/uploads/2023/06/amazon-case-study.jpg"
-                    alt="Hiring"
-                    className="imge"
-                  />
-                </div>
-                <div className="hoverimg" />
-              </div>
-            </li>
-            <li className="item">
-              <div className="hire-container">
-                <div>
-                  <img
-                    src="https://howl.in/wp-content/uploads/2023/06/amazon-case-study.jpg"
-                    alt="Hiring"
-                    className="imge"
-                  />
-                </div>
-                <div className="hoverimg" />
-              </div>
-            </li>
+            {tracks.map((t) => {
+              return (
+                <li className="item" key={t}>
+                  <div className="hire-container">
+                    <img src={t} alt="Hiring" className="imge" />
+                    <div className="hoverimg" />
+                  </div>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
