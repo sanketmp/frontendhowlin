@@ -1,0 +1,60 @@
+#client {
+  margin: 0;
+  padding: 1px;
+}
+.client-container {
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.client-head-text {
+  padding-top: 10px;
+  padding-left: 10%;
+  margin-bottom: 20;
+  font-size: 2.8vw;
+  color: rgb(189, 114, 211);
+}
+
+.container-client {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container-client ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.container-client ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.client-img {
+  height: 200px;
+  width: 75;
+  padding: 0 20px;
+}
+
+
+.image-container {
+  position: relative;
+  float: left;
+}
+
+
+.image-container .hoverimg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.image-container:hover .hoverimg {
+  display: block;
+}
+

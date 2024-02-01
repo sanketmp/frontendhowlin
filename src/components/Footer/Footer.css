@@ -1,0 +1,110 @@
+#footer {
+  background: #000;
+  color: white;
+  margin: 0;
+  padding: 1px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-links .socials {
+  display: flex;
+  list-style-type: none;
+}
+.footer-links .socials li {
+  margin-top: auto;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.footer-links .socials li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-links .redirects {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-links .redirects .page-links {
+  margin-top: 2%;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.footer-links .redirects .page-links:hover {
+  color: #b056be;
+}
+
+.footer-links .redirects .page-links::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #b056be;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.footer-links .redirects .page-links:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.footer-links .redirects li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.newsletter {
+  min-width: fit-content;
+  max-width: 100%;
+  border: 2px solid #b056be;
+  height: 30px;
+  padding: 2px;
+  margin-left: 20px;
+}
+.newsletter .newslet {
+  font: inherit;
+  font-size: 13px;
+  background: transparent;
+  border: transparent;
+}
+.newsletter .newslet:focus {
+  outline: none;
+  color: rgb(255, 255, 255);
+}
+
+.newsletter .submitbutton {
+  background: transparent;
+  border: 0px transparent;
+}
+.newsletter .submitbutton .arrow {
+  color: #b056be;
+  font-size: 20px;
+}
+
+.right-container{
+    margin-right: 5%;
+    
+}
+.right-container .rights{
+    font-size: 15px;
+    padding-top: 15px;
+}

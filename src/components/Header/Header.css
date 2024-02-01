@@ -1,0 +1,23 @@
+.home {
+  position: sticky;
+  top: 0;
+  background: rgb(255, 255, 255);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.logomain {
+  width: 160px;
+  height: 43.54px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.nav {
+  height: 25px;
+  width: 45px;
+  margin-top: 25px;
+  margin-right: 45px;
+}

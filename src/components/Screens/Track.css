@@ -1,0 +1,62 @@
+#track {
+  margin: 0;
+  padding: 1px;
+  color: #fff;
+  background: #b056be;
+}
+
+
+.track-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-container {
+  margin-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.img-items {
+  list-style-type: none;
+  display: flex;
+}
+
+.imge {
+  height: 220px;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.head-container {
+  margin-left: 15%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  max-width: 300px;
+  min-height: 124px;
+}
+
+.track-header-text {
+  font-size: 2.6em;
+  margin: 0;
+}
+#go {
+  font-size: 2.6em;
+}
+
+.hire-container {
+  position: relative;
+  float: left;
+}
+.hire-container .hoverimg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.hire-container:hover .hoverimg {
+  display: block;
+  background-color: #b056be68;
+  height: 220px;
+  width: 220px;
+}
